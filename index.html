@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mahmoud Elnagdy — Full-Stack Developer in Cairo</title>
+    <meta
+      name="description"
+      content="Mahmoud Elnagdy is a full-stack developer in Cairo, Egypt. He builds fast, accessible, bilingual web products with React, Next.js, TypeScript, and Node.js."
+    />
+    <link rel="canonical" href="https://nagdista.com/" />
+    <meta name="author" content="Mahmoud Elnagdy" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Mahmoud Elnagdy — Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full-stack developer in Cairo. React, Next.js, TypeScript, Node.js. Official portfolio: nagdista.com."
+    />
+    <meta property="og:url" content="https://nagdista-dev.github.io/" />
+    <meta property="og:image" content="https://nagdista.com/og/home-en-square.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Mahmoud Elnagdy — Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Full-stack developer in Cairo. Official portfolio: nagdista.com."
+    />
+    <meta name="twitter:image" content="https://nagdista.com/og/home-en-square.png" />
+    <link rel="me" href="https://nagdista.com/" />
+    <link rel="me" href="https://github.com/nagdista-dev" />
+    <link rel="me" href="https://www.linkedin.com/in/nagdista/" />
+    <link rel="me" href="https://x.com/nagdista" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://nagdista.com/#person",
+        "name": "Mahmoud Elnagdy",
+        "url": "https://nagdista.com/",
+        "jobTitle": "Full-Stack Developer",
+        "description": "Full-stack developer in Cairo, Egypt. Builds fast, accessible, bilingual web products with React, Next.js, TypeScript, Node.js, and SQL.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Cairo",
+          "addressCountry": "EG"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Misr Higher Institute for Commerce & Computers, Mansoura"
+        },
+        "sameAs": [
+          "https://github.com/nagdista-dev",
+          "https://www.linkedin.com/in/nagdista/",
+          "https://x.com/nagdista",
+          "https://khamsat.com/user/nagdista"
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        --bg: #f6f2ea;
+        --paper: #fdfaf4;
+        --ink: #171512;
+        --muted: #6b645a;
+        --line: #d9d0c2;
+        --orange: #ff4d00;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        line-height: 1.6;
+      }
+      a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+      a:hover { color: var(--orange); }
+      .wrap { width: min(100% - 2.5rem, 58rem); margin-inline: auto; }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 1.1rem 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .brand { display: flex; align-items: center; gap: 0.65rem; text-decoration: none; font-weight: 800; letter-spacing: 0.14em; font-size: 0.8rem; }
+      .mark {
+        display: grid;
+        place-items: center;
+        width: 2.15rem;
+        height: 2.15rem;
+        background: var(--orange);
+        color: #fff;
+        font-size: 0.95rem;
+        letter-spacing: 0;
+      }
+      .header-link { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); text-decoration: none; }
+      main { padding: 4.5rem 0 3rem; }
+      .eyebrow { margin: 0 0 1.1rem; color: var(--muted); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; }
+      h1 { margin: 0; font-size: clamp(3rem, 10vw, 6.4rem); line-height: 0.92; letter-spacing: -0.055em; font-weight: 800; }
+      h1 span { color: var(--orange); }
+      .intro { max-width: 40rem; margin: 2rem 0 0; font-size: clamp(1.05rem, 2.2vw, 1.3rem); color: #38332c; }
+      .actions { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.8rem; }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.8rem 1.05rem;
+        border: 1px solid var(--ink);
+        background: var(--ink);
+        color: #fff;
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .button:hover { background: var(--orange); border-color: var(--orange); color: #fff; }
+      .button.secondary { background: transparent; color: var(--ink); border-color: var(--line); }
+      .button.secondary:hover { color: var(--orange); border-color: var(--orange); background: transparent; }
+      section { border-top: 1px solid var(--line); padding: 2.6rem 0; }
+      h2 { margin: 0 0 1.4rem; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.6rem 2rem; }
+      .card h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+      .card p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+      .card a { display: inline-block; margin-top: 0.55rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--orange); text-decoration: none; }
+      .ai { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 1rem; }
+      .ai p { max-width: 38rem; margin: 0; color: var(--muted); }
+      footer { border-top: 1px solid var(--line); padding: 1.6rem 0 2.4rem; color: var(--muted); font-size: 0.8rem; display: flex; flex-wrap: wrap; gap: 0.6rem 1.2rem; justify-content: space-between; }
+      footer a { color: inherit; }
+      @media (max-width: 480px) {
+        main { padding-top: 3rem; }
+        .header-link { display: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="wrap">
+      <a class="brand" href="https://nagdista.com/" aria-label="Nagdista — official portfolio">
+        <span class="mark" aria-hidden="true">N</span>
+        <span>NAGDISTA</span>
+      </a>
+      <a class="header-link" href="https://nagdista.com/">Official portfolio ↗</a>
+    </header>
+
+    <main class="wrap">
+      <p class="eyebrow">Full-Stack Developer — Cairo, Egypt</p>
+      <h1>Mahmoud<br />Elnagdy<span>.</span></h1>
+      <p class="intro">
+        I design and build fast, accessible, bilingual web products with React,
+        Next.js, TypeScript, and Node.js. I care about the details that make
+        software feel effortless.
+      </p>
+      <div class="actions">
+        <a class="button" href="https://nagdista.com/">Visit the full portfolio →</a>
+        <a class="button secondary" href="https://nagdista.com/press/">Press &amp; identity kit</a>
+      </div>
+    </main>
+
+    <section class="wrap">
+      <h2>Selected work</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Wasla</h3>
+          <p>A bilingual platform that turns YouTube playlists into structured courses.</p>
+          <a href="https://nagdista.com/projects/wasla/">Case study ↗</a>
+        </article>
+        <article class="card">
+          <h3>Hassala</h3>
+          <p>A privacy-first Chrome extension for Arabic and English vocabulary.</p>
+          <a href="https://nagdista.com/projects/hassala/">Case study ↗</a>
+        </article>
+        <article class="card">
+          <h3>LocalTube</h3>
+          <p>A self-hosted video library with progress tracking and FFmpeg thumbnails.</p>
+          <a href="https://nagdista.com/projects/localtube/">Case study ↗</a>
+        </article>
+        <article class="card">
+          <h3>Tarteeb</h3>
+          <p>A prayer-aware daily planner that works offline.</p>
+          <a href="https://nagdista.com/projects/tarteeb/">Case study ↗</a>
+        </article>
+        <article class="card">
+          <h3>Yost</h3>
+          <p>A local-first dashboard for YouTube community posts.</p>
+          <a href="https://nagdista.com/projects/yost/">Case study ↗</a>
+        </article>
+        <article class="card">
+          <h3>EduSwap</h3>
+          <p>A graduation project: an educational tools exchange platform with real-time chat.</p>
+          <a href="https://nagdista.com/projects/">Projects ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap ai">
+      <div>
+        <h2>AI in Brief</h2>
+        <p>
+          A daily Arabic-language LinkedIn newsletter that filters the most
+          important AI news for developers.
+        </p>
+      </div>
+      <a class="button secondary" href="https://www.linkedin.com/newsletters/ai-in-brief-7492152374984376320">Read the newsletter ↗</a>
+    </section>
+
+    <footer class="wrap">
+      <span>Profile page for Mahmoud Elnagdy. Official site: <a href="https://nagdista.com/">nagdista.com</a>.</span>
+      <span>
+        <a href="https://github.com/nagdista-dev">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/nagdista/">LinkedIn</a> ·
+        <a href="https://x.com/nagdista">X</a>
+      </span>
+    </footer>
+  </body>
+</html>
